@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/float_menu_bg"
+    android:alpha="0.8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/menu_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/time"
+                android:text="时间"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/phone"
+                android:text="电话"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_airCondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/air_condition"
+                android:text="空调"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/menu_lighting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/light"
+                android:text="照明"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_air"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/air"
+                android:text="气体"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/power"
+                android:text="IT电源"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/menu_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/music"
+                android:text="音乐"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/log"
+                android:text="日志"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/menu_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/set"
+                android:text="设置"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/menu_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/main"
+            android:text="主屏幕"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:drawablePadding="5dp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
